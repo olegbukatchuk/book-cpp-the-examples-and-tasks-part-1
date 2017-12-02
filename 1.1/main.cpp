@@ -5,7 +5,12 @@ using namespace std;
 
 int main()
 {
-    cout<<"Программируем на C++!"<<endl;
+    system("chcp, utf-8 > nul");
+
+    /* Выводим сообщение в консоль */
+    cout << "Программируем на C++!" << endl;
+
+    system("pause > nul");
 
     return 0;
 }
