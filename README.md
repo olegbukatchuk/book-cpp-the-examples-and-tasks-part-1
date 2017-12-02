@@ -1,5 +1,5 @@
 # Программирование на C++ в примерах и задачах
 На сайте уважаемого издательства нет примеров кода из этой книги, поэтому я решил выложить свои исходные коды и скомпилированные программы. Возможно кому-нибудь пригодится.
 #
-![Программирование на C++ в примерах и задачах](https://github.com/olegbukatchuk/book-c-the-examples-and-tasks/blob/master/img/cover.jpg)
+![Программирование на C++ в примерах и задачах](https://github.com/olegbukatchuk/book-cpp-the-examples-and-tasks/blob/master/img/cover.jpg)
 
