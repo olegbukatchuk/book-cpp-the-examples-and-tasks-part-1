@@ -42,6 +42,5 @@ int main()
     cout << "Киллометры: " << dKm << endl;
     cout << "Метры: " << dM << endl;
     
-
     return 0;
 }
