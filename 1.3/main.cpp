@@ -41,6 +41,6 @@ int main()
     cout << "Расстояние в киллометрах и метрах." << endl;
     cout << "Киллометры: " << dKm << endl;
     cout << "Метры: " << dM << endl;
-    
+
     return 0;
 }
