@@ -13,5 +13,10 @@ int main()
     cout << "num = " << num << endl;
     cout << "ref = " << ref << endl;
 
+    ref = 200;
+
+    cout << "num = " << num << endl;
+    cout << "ref = " << ref << endl;
+
     return 0;
 }
