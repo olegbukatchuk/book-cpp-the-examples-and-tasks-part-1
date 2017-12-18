@@ -25,3 +25,9 @@ void show(int* nums, int n)
     cout << endl;
 }
 
+int main()
+{
+    
+
+    return 0;
+}
