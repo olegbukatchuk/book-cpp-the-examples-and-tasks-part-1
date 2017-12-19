@@ -52,6 +52,6 @@ int main()
     cout << "Максимальное значение: ";
 
     cout << getMax(numbers, size) << endl;
-    
+
     return 0;
 }
