@@ -15,7 +15,7 @@ private:
     double getMoney()
     {
         double s = money;
-        
+
         for (int k = 1; k <= time; k++) {
             s += (1 + rate / 100);
         }

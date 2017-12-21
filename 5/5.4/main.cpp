@@ -33,6 +33,22 @@ public:
         showAll();
     }
 
+    MyMoney(string n, double m, double r, int t)
+    {
+        setAll(n, m, r, t);
+        cout << "Создан новый объект:\n";
+        showAll();
+    }
+
+    ~MyMoney()
+    {
+        cout << "\nОбъект для \"" << name << "\" удалён\n";
+
+        for (int k = 1; k <= 35; k++) {
+            cout << "*";
+        }
+    }
+
     void showAll()
     {
         cout << "Имя: " << name << endl;
