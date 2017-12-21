@@ -14,6 +14,8 @@ private:
 
     double getMoney()
     {
+        double s = money;
+        
         for (int k = 1; k <= time; k++) {
             s += (1 + rate / 100);
         }
@@ -31,7 +33,7 @@ public:
         cout << "Итоговая сумма: " << getMoney() << endl;
     }
 
-    void setAll(string n, double m, double r, int n)
+    void setAll(string n, double m, double r, int t)
     {
         name = n;
         money = m;
@@ -39,7 +41,7 @@ public:
         time = t;
     }
 
-    void setAll(double m, double r, int n)
+    void setAll(double m, double r, int t)
     {
         money = m;
         rate = r;
@@ -62,7 +64,7 @@ public:
         rate = r;
     }
 
-    void setAll(double r, bool s = true)
+    void setAll(double x, bool s = true)
     {
         if (s) {
             money = x;
@@ -100,7 +102,21 @@ int main()
 
     cout << endl;
 
+    /* Изменение начальной суммы */
+    obj.setAll(1500, true);
+    obj.showAll();
 
+    cout << endl;
+
+    /* Изменение процентной ставки */
+    obj.setAll(6, false);
+    obj.showAll();
+
+    cout << endl;
+
+    /* Изменение начальной суммы, процентной ставки и времени размещения депозита */
+    obj.setAll(1000, 8, 5);
+    obj.showAll();
 
     return 0;
 }
