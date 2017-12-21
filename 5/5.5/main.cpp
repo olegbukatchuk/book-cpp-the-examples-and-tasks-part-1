@@ -115,8 +115,8 @@ int main()
     objA--;
     objA.showAll();
 
-    objA++;
-    objA.showAll();
+    //objA++;
+    //objA.showAll();
 
     --objA;
     objA.showAll();
@@ -136,6 +136,6 @@ int main()
     objC.showAll();
 
     cout << "Разница в доходах: " << objC - objB << endl;
-    
+
     return 0;
 }
