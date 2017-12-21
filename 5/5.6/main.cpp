@@ -22,5 +22,11 @@ public:
         return s;
     }
 
-
+    void showAll()
+    {
+        cout << "Имя: " << name << endl;
+        cout << "Вклад: " << money << endl;
+        cout << "Ставка (%): " << rate << endl;
+        cout << "Период (лет): " << time << endl;
+    }
 };
