@@ -76,3 +76,66 @@ public:
         return tmp;
     }
 };
+
+double operator-(MyMoney objX, MyMoney objY)
+{
+    return objX.getMoney() - objY.getMoney();
+}
+
+MyMoney operator--(MyMoney &obj)
+{
+    if (obj.money > 1000) {
+        obj.money -= 1000;
+    } else {
+        obj.money = 0;
+    }
+
+    return obj;
+}
+
+MyMoney operator--(MyMoney &obj, int)
+{
+    if (obj.time > 0) {
+        obj.time--;
+    } else {
+        obj.time = 0;
+    }
+
+    return obj;
+}
+
+int main()
+{
+    MyMoney objA("Кот Матроскин", 1200, 7, 1);
+    objA.showAll();
+
+    objA--;
+    objA.showAll();
+
+    objA--;
+    objA.showAll();
+
+    objA++;
+    objA.showAll();
+
+    --objA;
+    objA.showAll();
+
+    --objA;
+    objA.showAll();
+
+    ++objA;
+    objA.showAll();
+
+    MyMoney objB("Пёс Шарик", 1100, 8, 5);
+    objB.showAll();
+
+    MyMoney objC;
+
+    objC = objA + objB;
+    objC.showAll();
+
+    cout << "Разница в доходах: " << objC - objB << endl;
+    
+    return 0;
+}
