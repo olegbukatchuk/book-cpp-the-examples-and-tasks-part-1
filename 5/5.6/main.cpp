@@ -81,8 +81,8 @@ public:
         periods = p;
     }
 
-    BigMoney(string n, double m, double r, int t, int p = 1)
+    BigMoney(string n, double m, double r, int t, int p = 1): MyMoney(n, m, r, t)
     {
-        
+
     }
 };
