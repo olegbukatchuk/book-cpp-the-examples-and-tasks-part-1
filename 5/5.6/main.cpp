@@ -78,11 +78,40 @@ public:
     void setAll(string n, double m, double r, int t)
     {
         MyMoney::setAll(n, m, r, t);
+
+        int p;
         periods = p;
     }
 
     BigMoney(string n, double m, double r, int t, int p = 1): MyMoney(n, m, r, t)
     {
+        periods = p;
+    }
 
+    BigMoney(): MyMoney()
+    {
+        periods = 1;
     }
 };
+
+int main()
+{
+    MyMoney objA("Кот Матроскин", 1200, 8, 5);
+
+    BigMoney objB("Дядя Фёдор", 1000, 7, 6, 2);
+    BigMoney objC("Пёс Шарик", 1500, 6, 8);
+    BigMoney objD;
+
+    objD.setAll("Почтальон Печкин", 800, 10, 3);
+
+    objA.showAll();
+    cout << endl;
+
+    objB.showAll();
+    cout << endl;
+
+    objC.showAll();
+    cout << endl;
+
+    return 0;
+}
