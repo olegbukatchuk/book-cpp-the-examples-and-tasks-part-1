@@ -8,7 +8,9 @@ template <class X> void show(X arg) {
 }
 
 int main() {
-    
+    show('A');
+    show(123);
+    show("Текст");
 
     return 0;
 }
