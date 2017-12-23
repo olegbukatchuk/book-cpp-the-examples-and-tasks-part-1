@@ -13,3 +13,9 @@ template <class X, class Y> void show(X x, Y y) {
     cout << "Первый аргумент: " << x << endl;
     cout << "Второй аргумент: " << y << endl;
 };
+
+int main() {
+    
+
+    return 0;
+}
