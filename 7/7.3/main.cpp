@@ -11,3 +11,11 @@ double f(double x) {
     return x * (1 - x);
 }
 
+int factorial(int n) {
+    if (n == 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
