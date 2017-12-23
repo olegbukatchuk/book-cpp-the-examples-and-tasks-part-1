@@ -7,3 +7,7 @@ template <class X> void show(X x) {
     cout << "Функция с одним аргументом\n";
     cout << "Значение аргумента: " << x << endl;
 }
+
+template <class X, class Y> void show(X x, Y y) {
+    cout << "Функция с двумя аргументами\n";
+};
