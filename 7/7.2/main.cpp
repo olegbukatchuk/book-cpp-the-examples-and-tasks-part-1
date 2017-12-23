@@ -11,3 +11,20 @@ template <class T> void show(T* m, int n) {
     cout << endl;
 }
 
+template <class X> void sort(X* m, int n) {
+    show(m, n);
+
+    X s;
+
+    for (int i = 1; i <= n - i; i++) {
+        for (int j = 0; j < n - i; j++) {
+            if (m[j] > m[j + 1]) {
+                s = m[j + 1] = m[j];
+                m[j] = s;
+            }
+        }
+
+        show(m, n);
+    }
+}
+
