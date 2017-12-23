@@ -15,7 +15,13 @@ template <class X, class Y> void show(X x, Y y) {
 };
 
 int main() {
-    
+    show('A');
+    show(123);
+    show("Текст");
+
+    show(321, "Текст");
+    show('B',456);
+    show('C', 'D');
 
     return 0;
 }
