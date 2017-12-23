@@ -19,3 +19,14 @@ int factorial(int n) {
     }
 }
 
+char symb(int n) {
+    return 'A' + n;
+}
+
+int main() {
+    cout << apply(f, 0.5) << endl;
+    cout << apply(factorial, 5) << endl;
+    cout << apply(symb, 3) << endl;
+
+    return 0;
+}
