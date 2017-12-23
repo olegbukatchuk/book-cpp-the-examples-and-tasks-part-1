@@ -33,6 +33,8 @@ int main() {
 
     show('A');
     show(100.0);
+    show(200);
+    show(obj);
 
     return 0;
 }
