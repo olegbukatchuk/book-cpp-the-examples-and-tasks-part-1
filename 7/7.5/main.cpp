@@ -17,5 +17,5 @@ public:
 };
 
 template <class X> void show(X arg) {
-    
+    cout << "Значение аргумента функции: " << arg << endl;
 }
