@@ -11,6 +11,6 @@ public:
 
     MyClass(A f, B s) {
         first = f;
-        
+        second = s;
     }
 };
