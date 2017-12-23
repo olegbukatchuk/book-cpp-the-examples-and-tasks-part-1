@@ -28,3 +28,12 @@ template <class X> void sort(X* m, int n) {
     }
 }
 
+int main() {
+    int A[5] = {3, 2, 8, 1, 0};
+    char B[7] = {'Z', 'B', 'Y', 'A', 'D', 'C', 'X'};
+
+    sort(A, 5);
+    sort(B, 7);
+
+    return 0;
+}
