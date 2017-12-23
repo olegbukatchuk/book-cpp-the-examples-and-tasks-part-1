@@ -13,7 +13,7 @@ public:
     }
 
     void show() {
-        cout << "Класс Alpha: " << endl;
+        cout << "Класс Alpha: " << symb << endl;
     }
 
     void set(char s) {
