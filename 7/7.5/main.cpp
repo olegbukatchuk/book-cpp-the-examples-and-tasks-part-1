@@ -10,4 +10,8 @@ public:
     MyClass(int n) {
         number = n;
     }
+
+    void show() {
+        
+    }
 };
