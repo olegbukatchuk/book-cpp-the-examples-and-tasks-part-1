@@ -10,6 +10,7 @@ public:
     B second;
 
     MyClass(A f, B s) {
+        first = f;
         
     }
 };
