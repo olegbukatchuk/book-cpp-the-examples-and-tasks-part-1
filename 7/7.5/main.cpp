@@ -12,6 +12,6 @@ public:
     }
 
     void show() {
-        
+        cout << "Объект класса MyClass: " << number << endl;
     }
 };
