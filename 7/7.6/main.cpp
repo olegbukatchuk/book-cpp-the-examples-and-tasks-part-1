@@ -4,3 +4,6 @@
 
 using namespace std;
 
+template <class A, class B> class MyClass {
+    
+};
