@@ -13,4 +13,10 @@ public:
         first = f;
         second = s;
     }
+
+    void show() {
+        cout << "Первое поле: " << first << endl;
+        cout << "Второе поле: " << second << endl;
+    }
 };
+
