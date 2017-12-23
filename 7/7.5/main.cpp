@@ -21,5 +21,18 @@ template <class X> void show(X arg) {
 }
 
 template <> void show <int> (int arg) {
-    
+    cout << "Целочисленный аргумент: " << arg << endl;
+}
+
+template <> void show <MyClass> (MyClass obj) {
+    obj.show();
+}
+
+int main() {
+    MyClass obj(300);
+
+    show('A');
+    show(100.0);
+
+    return 0;
 }
