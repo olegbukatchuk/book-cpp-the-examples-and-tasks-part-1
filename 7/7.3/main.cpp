@@ -6,3 +6,8 @@ using namespace std;
 template <class X, class R> R apply(R (*fun) (X), X arg) {
     return fun(arg);
 };
+
+double f(double x) {
+    return x * (1 - x);
+}
+
