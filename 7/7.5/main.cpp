@@ -15,3 +15,7 @@ public:
         cout << "Объект класса MyClass: " << number << endl;
     }
 };
+
+template <class X> void show(X arg) {
+    
+}
