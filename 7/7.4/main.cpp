@@ -11,4 +11,5 @@ template <class X> void show(X x) {
 template <class X, class Y> void show(X x, Y y) {
     cout << "Функция с двумя аргументами\n";
     cout << "Первый аргумент: " << x << endl;
+    cout << "Второй аргумент: " << y << endl;
 };
