@@ -31,4 +31,15 @@ public:
     Bravo(char s): BaseClass <char> (s) {}
 };
 
-o
+int main() {
+    Alpha objA;
+
+    cout << "Объект objA: " << objA.get() << endl;
+    objA.set(100);
+
+    cout << "Объект objA: " << objA.get() << endl;
+
+    Bravo objB('A');
+
+    
+}
