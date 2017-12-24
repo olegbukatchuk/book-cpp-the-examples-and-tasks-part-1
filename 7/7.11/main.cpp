@@ -41,5 +41,21 @@ public:
         return s;
     }
 
-    o
+    double &operator[] (int k) {
+        return a[k];
+    }
+
+    template <int n> Polynom <power + n> operator*(Polynom <n> pol) {
+        Polynom <power + n> tmp;
+
+        for (int i = 0; i <= power; i++) {
+            for (int j = 0; j <= n; j++) {
+                tmp[i + j] += a[i] * pol[j];
+            }
+        }
+
+        return tmp;
+    }
+
+    template 
 };
