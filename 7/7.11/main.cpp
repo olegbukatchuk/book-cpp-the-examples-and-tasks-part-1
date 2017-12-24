@@ -82,3 +82,19 @@ template <int m, int n> Polynom <(m > n ? m : n)> operator-(Polynom <m> x, Polyn
     return x + (-1) * y;
 };
 
+template <int power> Polynom <power - 1> Diff(Polynom <power> pol) {
+    Polynom <power - 1> tmp;
+
+    for (int k = 0; k <= power - 1; k++) {
+        tmp[k] = pol[k + 1] * (k + 1);
+    }
+
+    return tmp;
+}
+
+int main() {
+    
+
+    return 0;
+}
+
