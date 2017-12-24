@@ -75,7 +75,7 @@ public:
 };
 
 template <int power> Polynom <power> operator*(double r, Polynom <power> pol) {
-    return pol * r;
+    return pol*r;
 }
 
 template <int m, int n> Polynom <(m > n ? m : n)> operator-(Polynom <m> x, Polynom <n> y) {
@@ -93,7 +93,48 @@ template <int power> Polynom <power - 1> Diff(Polynom <power> pol) {
 }
 
 int main() {
-    
+    double A[] = {1, 2. -1, 1};
+    double B[] = {-1, 3, 0, 2, -1, 1};
+    double x = 2;
+
+    Polynom <3> P(A);
+
+    cout << "Полином P:\t";
+    P.getAll();
+
+    cout << "Значение P("<< x <<") = ";
+    cout << P(x) << endl;
+    cout << "Полином P:\t";
+
+    Diff(P).getAll();
+    cout << "Значение P'("<< x <<") = ";
+    cout << Diff(P) (x) << endl;
+
+    Polynom <5> Q(B);
+
+    cout << "Полином Q:\t";
+    Q.getAll();
+
+    cout << "Значение Q("<< x <<") = ";
+    cout << Q(x) << endl;
+    cout << "Полином P * Q:\t";
+
+    (P * Q).getAll();
+    cout << "Значение (P * Q) ("<< x <<") = ";
+
+    cout << (P * Q) (x) << endl;
+    cout << "Полином P + Q:\t";
+
+    (P + Q).getAll();
+    cout << "Значение (P + Q) ("<< x <<") = ";
+
+    cout << (P + Q) (x) << endl;
+    cout << "Полином Q - P:\t";
+
+    (Q - P).getAll();
+    cout << "Значение (Q - P) ("<< x <<") = ";
+
+    cout << (Q - P) (x) << endl;
 
     return 0;
 }
