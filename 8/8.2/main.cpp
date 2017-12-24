@@ -14,4 +14,12 @@ template  <class A, class B> void show(MyStruct <A, B> str) {
     cout << "Второе поле: " << str.second << endl;
 };
 
-int 
+int main() {
+    MyStruct <int, char> strA = {100, 'A'};
+    MyStruct <double, string> strB = {2.5, "текст"};
+
+    show(strA);
+    show(strB);
+
+    return 0;
+}
