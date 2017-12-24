@@ -12,5 +12,12 @@ public:
         set(val);
     }
 
-    
+    void set(X val) {
+        value = val;
+    }
+
+    X get() {
+        return value;
+    }
 };
+
