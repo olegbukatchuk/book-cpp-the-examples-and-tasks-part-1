@@ -29,3 +29,12 @@ void show(MyMoney str) {
     cout << "Итоговая сумма: " << getMoney(str) << endl;
 }
 
+int main() {
+    MyMoney cat = {"Кот Матроскин", 1000, 8, 5};
+    MyMoney dog = {"Пес Шарик", 1200, 7, 4};
+
+    show(cat);
+    show(dog);
+
+    return 0;
+}
