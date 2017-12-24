@@ -22,5 +22,10 @@ double getMoney(MyMoney str) {
 }
 
 void show(MyMoney str) {
-    
+    cout << "Имя вкладчика: " << str.name << endl;
+    cout << "Начальная сумма: " << str.money << endl;
+    cout << "Процентная ставка: " << str.rate << endl;
+    cout << "Время (лет): " << str.time << endl;
+    cout << "Итоговая сумма: " << getMoney(str) << endl;
 }
+
