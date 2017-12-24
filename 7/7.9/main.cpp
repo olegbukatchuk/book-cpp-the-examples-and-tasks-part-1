@@ -30,3 +30,6 @@ public:
     }
 };
 
+template <class A, class B, class C> class Charlie: public Alpha <A>, public Bravo <B> {
+    
+};
