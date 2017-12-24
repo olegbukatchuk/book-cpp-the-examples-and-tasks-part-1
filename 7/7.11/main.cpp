@@ -78,5 +78,7 @@ template <int power> Polynom <power> operator*(double r, Polynom <power> pol) {
     return pol * r;
 }
 
-
+template <int m, int n> Polynom <(m > n ? m : n)> operator-(Polynom <m> x, Polynom <n> y) {
+    return x + (-1) * y;
+};
 
