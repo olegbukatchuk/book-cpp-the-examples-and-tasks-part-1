@@ -20,3 +20,11 @@ public:
     }
 };
 
+int main() {
+    MyClass <int, char> objA(100, 'A');
+    MyClass <string, double> objB("текст", 10.5);
+    MyClass <char*, string> objC("первый", "второй");
+    MyClass <int, int> objD(1, 2);
+
+    
+}
