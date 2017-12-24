@@ -19,3 +19,14 @@ public:
     }
 };
 
+int main() {
+    MyClass <double, int> objA(3.5, 100);
+    MyClass <string> objB("текст", 'A');
+    MyClass <> objC(200, 'B');
+
+    objA.show();
+    objB.show();
+    objC.show();
+
+    return 0;
+}
