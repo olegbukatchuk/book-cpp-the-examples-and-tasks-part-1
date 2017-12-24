@@ -14,5 +14,8 @@ public:
         second = s;
     }
 
-    
+    void show() {
+        cout << "Значения " << first << " и " << second << endl;
+    }
 };
+
