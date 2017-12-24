@@ -21,3 +21,8 @@ public:
     }
 };
 
+class Alpha: public BaseClass <int> {
+public:
+    Alpha(): BaseClass <int> (0) {}
+};
+
