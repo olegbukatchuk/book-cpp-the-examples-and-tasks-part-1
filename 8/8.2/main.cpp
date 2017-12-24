@@ -9,3 +9,9 @@ template <class A, class B> struct MyStruct {
     B second;
 };
 
+template  <class A, class B> void show(MyStruct <A, B> str) {
+    cout << "Первое поле: " << str.first << endl;
+    cout << "Второе поле: " << str.second << endl;
+};
+
+int 
