@@ -11,19 +11,30 @@ int main() {
 
     cout << "Сумма: ";
     cout << A << " + " << B << " = " << A + B << endl;
-
     cout << "Разность: ";
     cout << A << " - " << B << " = " << A - B << endl;
-
     cout << "Произведение: ";
     cout << A << " * " << B << " = " << A * B << endl;
-
     cout << "Частное: ";
     cout << A << " / " << B << " = " << A / B << endl;
 
     cout << "Сумма: ";
     cout << A << " + " << x << " = " << A + x << endl;
-
     cout << "Разность: ";
     cout << A << " - " << x << " = " << A - x << endl;
+    cout << "Произведение: ";
+    cout << A << " * " << x << " = " << A * x << endl;
+    cout << "Частное: ";
+    cout << A << " / " << x << " = " << A / x << endl;
+
+    cout << "Сумма: ";
+    cout << y << " + " << B << " = " << y + B << endl;
+    cout << "Разность: ";
+    cout << y << " - " << B << " = " << y - B << endl;
+    cout << "Произведение: ";
+    cout << y << " * " << B << " = " << y * B << endl;
+    cout << "Частное: ";
+    cout << y << " / " << B << " = " << y / B << endl;
+
+
 }
