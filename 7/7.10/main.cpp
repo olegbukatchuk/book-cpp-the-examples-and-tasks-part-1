@@ -41,5 +41,10 @@ int main() {
 
     Bravo objB('A');
 
-    
+    cout << "Объект objB: " << objB.get() << endl;
+    objB.set('B');
+
+    cout << "Объект objB: " << objB.get() << endl;
+
+    return 0;
 }
