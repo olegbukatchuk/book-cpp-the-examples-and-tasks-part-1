@@ -63,6 +63,10 @@ public:
         Polynom <(n > power ? n : power)> tmp;
 
         for (i = 0; i <= power; i++) {
+            tmp[i] += a[i];
+        }
+
+        for (i = 0; i <= n; i++) {
             tmp[i] += pol[i];
         }
 
@@ -70,4 +74,5 @@ public:
     }
 };
 
-o
+
+
