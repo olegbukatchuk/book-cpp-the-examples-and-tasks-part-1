@@ -57,5 +57,17 @@ public:
         return tmp;
     }
 
-    template 
+    template <int n> Polynom <(n > power ? n : power)> operator+(Polynom <n> pol) {
+        int i;
+
+        Polynom <(n > power ? n : power)> tmp;
+
+        for (i = 0; i <= power; i++) {
+            tmp[i] += pol[i];
+        }
+
+        return tmp;
+    }
 };
+
+o
