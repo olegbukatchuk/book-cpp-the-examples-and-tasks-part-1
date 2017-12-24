@@ -4,3 +4,10 @@
 
 using namespace std;
 
+struct MyMoney {
+    string name;
+    double money;
+    double rate;
+    int time;
+};
+
