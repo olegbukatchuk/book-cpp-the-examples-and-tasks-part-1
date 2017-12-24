@@ -16,3 +16,7 @@ public:
         cout << "Поле alpha: " << alpha << endl;
     }
 };
+
+template <class B> class Bravo {
+    
+};
