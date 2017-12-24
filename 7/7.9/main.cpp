@@ -18,5 +18,15 @@ public:
 };
 
 template <class B> class Bravo {
-    
+public:
+    B bravo;
+
+    Bravo(B b) {
+        bravo = b;
+    }
+
+    void show() {
+        cout << "Поле bravo: " << bravo << endl;
+    }
 };
+
