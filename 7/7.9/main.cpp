@@ -9,6 +9,10 @@ public:
     A alpha;
 
     Alpha(A a) {
-        alpha = a;o
+        alpha = a;
+    }
+
+    void show() {
+        cout << "Поле alpha: " << alpha << endl;
     }
 };
