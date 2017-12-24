@@ -47,11 +47,11 @@ public:
 };
 
 int main() {
-    Charlie <int, char, int> objA("текст", 'A', 100);
+    Charlie <string, char, int> objA("текст", 'A', 100);
     Charlie <int, double, char> objB(200, 5.5, 'B');
 
     objA.show();
     objB.show();
-    
+
     return 0;
 }
