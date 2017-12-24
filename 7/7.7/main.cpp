@@ -40,3 +40,16 @@ public:
     }
 };
 
+int main() {
+    MyClass <int> objA(100);
+    MyClass <char> objB('A');
+    MyClass <char*> objC("текст");
+    MyClass <string> objD("текст");
+
+    objA.show();
+    objB.show();
+    objC.show();
+    objD.show();
+
+    return 0;
+}
