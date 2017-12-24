@@ -20,3 +20,7 @@ double getMoney(MyMoney str) {
 
     return s;
 }
+
+void show(MyMoney str) {
+    
+}
