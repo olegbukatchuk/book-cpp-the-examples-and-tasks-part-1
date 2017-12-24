@@ -26,3 +26,9 @@ public:
     Alpha(): BaseClass <int> (0) {}
 };
 
+class Bravo: public BaseClass <char> {
+public:
+    Bravo(char s): BaseClass <char> (s) {}
+};
+
+o
