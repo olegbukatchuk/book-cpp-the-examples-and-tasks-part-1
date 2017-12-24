@@ -74,5 +74,9 @@ public:
     }
 };
 
+template <int power> Polynom <power> operator*(double r, Polynom <power> pol) {
+    return pol * r;
+}
+
 
 
