@@ -17,3 +17,26 @@ private:
     }
 };
 
+template <> class MyClass<string> {
+private:
+    char value[100];
+
+public:
+    MyClass(char* str) {
+        int k;
+
+        value[0] = '|';
+
+        for (k = 0; str[k]; k++) {
+            value[2 * k + 1] = str[k];
+            value[2 * k + 2] = '|';
+        }
+
+        value[2 * k + 1] = '\0';
+    }
+
+    void show() {
+        cout << value << endl;
+    }
+};
+
