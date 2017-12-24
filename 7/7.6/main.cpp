@@ -26,5 +26,10 @@ int main() {
     MyClass <char*, string> objC("первый", "второй");
     MyClass <int, int> objD(1, 2);
 
-    
+    objA.show();
+    objB.show();
+    objC.show();
+    objD.show();
+
+    return 0;
 }
