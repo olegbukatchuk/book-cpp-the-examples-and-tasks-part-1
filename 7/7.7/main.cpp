@@ -8,6 +8,7 @@ template <class T> class MyClass {
 private:
     T value;
 
+public:
     MyClass(T v) {
         value = v;
     }
