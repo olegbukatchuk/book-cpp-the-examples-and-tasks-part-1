@@ -36,5 +36,14 @@ int main() {
     cout << "Частное: ";
     cout << y << " / " << B << " = " << y / B << endl;
 
-
+    cout << "Действительная часть: ";
+    cout << "Re" << A << " = " << A.real() << endl;
+    cout << "Мнимая часть: ";
+    cout << "Im" << A << " = " << A.imag() << endl;
+    cout << "Модуль: ";
+    cout << "abs" << A << " = " << abs(A) << endl;
+    cout << "Аргумент: ";
+    cout << "arg" << A << " = " << arg(A) << endl;
+    cout << "Комплекно-сопряженное число:";
+    
 }
