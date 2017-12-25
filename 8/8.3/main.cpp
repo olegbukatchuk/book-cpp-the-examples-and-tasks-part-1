@@ -45,6 +45,11 @@ int main() {
     cout << "Аргумент: ";
     cout << "arg" << A << " = " << arg(A) << endl;
 
-    cout << "Комплекно-сопряженное число:";
+    cout << "Комплекно-сопряженное: ";
+    cout << A << "* = " << conj(A) << endl;
 
+    cout << "Определение числа: ";
+    cout << polar(abs(A), arg(A)) << endl;
+
+    return 0;
 }
