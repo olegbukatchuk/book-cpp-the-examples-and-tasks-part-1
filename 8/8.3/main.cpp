@@ -44,6 +44,7 @@ int main() {
     cout << "abs" << A << " = " << abs(A) << endl;
     cout << "Аргумент: ";
     cout << "arg" << A << " = " << arg(A) << endl;
+
     cout << "Комплекно-сопряженное число:";
-    
+
 }
