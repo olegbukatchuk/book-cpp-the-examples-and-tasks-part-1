@@ -138,6 +138,14 @@ int main() {
 
     res.getAll();
     cout << "Значение P'(" << x << ") = ";
-    
+
+    cout << res(x) << endl;
+    Polynom Q(B, 5);
+
+    cout << "Полином Q:\t";
+    Q.getAll();
+    cout << "Значение Q(" << x << ") = ";
+
+
     return 0;
 }
