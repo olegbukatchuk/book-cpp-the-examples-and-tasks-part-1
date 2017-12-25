@@ -17,6 +17,11 @@ int main() {
     cout << fibs[0] << " " << fibs[1];
 
     for (int k = 2; k < n; k++) {
-        
+        fibs[k] = fibs[k - 1] + fibs[k - 2];
+        cout << " " << fibs[k];
     }
+
+    cout << endl;
+
+    return 0;
 }
