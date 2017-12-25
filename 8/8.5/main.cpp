@@ -159,7 +159,7 @@ int main() {
     cout << "Полином P + Q:\t";
     res.getAll();
     cout << "Значение (Q - P) (" << x << ") = ";
-    cout <<
+    cout << res(x) 
 
 
     return 0;
