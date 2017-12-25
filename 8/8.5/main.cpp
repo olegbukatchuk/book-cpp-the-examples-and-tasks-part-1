@@ -125,6 +125,12 @@ int main() {
     double x = 2;
 
     Polynom res;
+    Polynom P(A, 3);
+
+    cout << "Полином P:\t";
+    P.getAll();
+
+    
 
     return 0;
 }
