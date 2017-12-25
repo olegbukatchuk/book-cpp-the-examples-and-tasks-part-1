@@ -121,47 +121,45 @@ Polynom Diff(Polynom pol) {
 int main() {
     double A[] = {1, 2, -1, 1};
     double B[] = {-1, 3, 0, 2, -1, 1};
-
     double x = 2;
 
     Polynom res;
-    Polynom P(A, 3);
 
+    Polynom P(A, 3);
     cout << "Полином P:\t";
     P.getAll();
-
     cout << "Значение P(" << x << ") = ";
     cout << P(x) << endl;
 
     res = Diff(P);
     cout << "Полином P':\t";
-
     res.getAll();
     cout << "Значение P'(" << x << ") = ";
-
     cout << res(x) << endl;
-    Polynom Q(B, 5);
 
+    Polynom Q(B, 5);
     cout << "Полином Q:\t";
     Q.getAll();
     cout << "Значение Q(" << x << ") = ";
-
     cout << res(x) << endl;
 
     Polynom Q(B, 5);
     cout << "Полином Q:\t";
-
     Q.getAll();
     cout << "Значение Q(" << x << ") = ";
     cout << Q(x) << endl;
 
     res = P * Q;
     cout << "Полином P * Q:\t";
-
     res.getAll();
     cout << "Значение (P * Q) (" << x << ") = ";
-
     cout << res(x) << endl;
+
+    res = P * Q;
+    cout << "Полином P + Q:\t";
+    res.getAll();
+    cout 
+
 
     return 0;
 }
