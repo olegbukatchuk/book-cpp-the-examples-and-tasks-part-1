@@ -94,6 +94,37 @@ Polynom operator*(Polynom pol, double r) {
     Polynom tmp(pol.power());
 
     for (int k = 0; k <= pol.power(); k++) {
-        
+        tmp[k] = pol[k] * r;
     }
+
+    return tmp;
+}
+
+Polynom operator*(double r, Polynom pol) {
+    return pol * r;
+}
+
+Polynom operator-(Polynom x, Polynom y) {
+    return x + (-1) * y;
+}
+
+Polynom Diff(Polynom pol) {
+    Polynom tmp(pol.power() - 1);
+
+    for (int k = 0; k <= tmp.power(); k++) {
+        tmp[k] = pol[k + 1] * (k + 1);
+    }
+
+    return tmp;
+}
+
+int main() {
+    double A[] = {1, 2, -1, 1};
+    double B[] = {-1, 3, 0, 2, -1, 1};
+
+    double x = 2;
+
+    Polynom res;
+
+    return 0;
 }
