@@ -146,6 +146,20 @@ int main() {
     Q.getAll();
     cout << "Значение Q(" << x << ") = ";
 
+    cout << res(x) << endl;
+
+    Polynom Q(B, 5);
+    cout << "Полином Q:\t";
+
+    Q.getAll();
+    cout << "Значение Q(" << x << ") = ";
+    cout << Q(x) << endl;
+
+    res = P * Q;
+    cout << "Полином P * Q:\t";
+
+    res.getAll();
+    cout << "Значение "
 
     return 0;
 }
