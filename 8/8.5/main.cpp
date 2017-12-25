@@ -159,7 +159,9 @@ int main() {
     cout << "Полином P * Q:\t";
 
     res.getAll();
-    cout << "Значение ()"
+    cout << "Значение (P * Q) (" << x << ") = ";
+
+    cout << res(x) << endl;
 
     return 0;
 }
