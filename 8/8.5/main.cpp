@@ -130,7 +130,14 @@ int main() {
     cout << "Полином P:\t";
     P.getAll();
 
-    
+    cout << "Значение P(" << x << ") = ";
+    cout << P(x) << endl;
 
+    res = Diff(P);
+    cout << "Полином P':\t";
+
+    res.getAll();
+    cout << "Значение P'(" << x << ") = ";
+    
     return 0;
 }
