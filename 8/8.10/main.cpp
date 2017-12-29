@@ -21,5 +21,7 @@ int main() {
 
     numbers.erase("три");
 
+    map<string,int>::iterator p;
+
     return 0;
 }
