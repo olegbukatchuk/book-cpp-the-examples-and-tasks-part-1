@@ -32,4 +32,8 @@ double F3(double x) {
 int main() {
     cout<<"Вычисления интегралов\n";
     cout<<integrate(F1,0,1)<<" vs. "<<(double)1/6<<endl;
+    cout<<integrate(F2,0,1)<<" vs. "<<log(2)<<endl;
+    cout<<integrate(F3,0,100,1e5)<<" vs. "<<0.5<<endl;
+
+    return 0;
 }
