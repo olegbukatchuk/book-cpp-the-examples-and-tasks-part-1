@@ -45,6 +45,11 @@ void line(int m) {
 int main() {
     int k,m=20;
 
+    const int n=5;
+
+    double x[n]={1,3,5,7,9};
+    double y[n]={0,2,-1,1,3};
+
     
 
     return 0;
