@@ -35,6 +35,10 @@ double f(double x) {
     return exp(-x)-x;
 }
 
+double g(double x) {
+    return exp(-x)-x;o
+}
+
 double h(double x) {
     return x*x-5*x+6;
 }
@@ -66,6 +70,7 @@ void test(double (*f)(double), double a, double b, string eq) {
 
 int main() {
     test(f,0,1,"0.5cos(x)-x=0");
+    test(g,0,2,"exp(-x)-x");
 
     return 0;
 }
