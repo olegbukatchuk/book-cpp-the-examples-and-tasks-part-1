@@ -43,6 +43,8 @@ void line(int m) {
 }
 
 int main() {
+    int k,m=20;
+
     
 
     return 0;
