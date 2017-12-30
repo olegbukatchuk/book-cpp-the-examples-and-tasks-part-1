@@ -20,5 +20,5 @@ double phi(int k, double z, double* x, int n) {
 }
 
 double L(double z, double* x, double* y, int n) {
-    
+    double s=0;
 }
