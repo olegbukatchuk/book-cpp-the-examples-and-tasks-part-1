@@ -29,5 +29,9 @@ int main() {
 
     cout<<"Решение дифференциального уравнения:\n";
 
-    for ()
+    for (int k=0;k<5;k++) {
+        cout<<dsolve(f,0,1,x[k])<<" vs. "<<Y(x[k])<<endl;
+    }
+
+    return 0;
 }
