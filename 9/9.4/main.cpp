@@ -58,5 +58,8 @@ int main() {
     cout<<"x\t| L(x)\n";
     line(m);
 
-    for ()
+    for (k=0;k<n;k++) {
+        cout<<x[k]+dx<<"\t| "<<L(x[k]+dx,x,y,n)<<endl;
+    }
+    return 0;
 }
