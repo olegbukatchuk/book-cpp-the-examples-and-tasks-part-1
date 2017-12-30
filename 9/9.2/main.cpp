@@ -73,7 +73,8 @@ int main() {
     test(g,0,2,"exp(-x)-x");
     test(h,0,5,"x-5*x+6=0");
     test(h,0,2,"x*x-5*x+6=0");
-    
+    test(h,1,3,"x*x-5*x+6=0");
+    o
 
     return 0;
 }
