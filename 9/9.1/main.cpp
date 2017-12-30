@@ -47,3 +47,6 @@ void test(double (*f)(double), double x0, string eg) {
     cout<<endl;
 }
 
+int main() {
+    return 0;
+}
