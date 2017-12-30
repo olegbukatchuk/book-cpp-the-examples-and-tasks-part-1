@@ -20,3 +20,14 @@ double dsolve(double (*f)(double, double), double x0, double y0, double x) {
     return y;
 }
 
+double Y(double x) {
+    return (x*x*x/3+1)*exp(-x);
+}
+
+int main() {
+    double x[]={0,0.5,1,3,10};
+
+    cout<<"Решение дифференциального уравнения:\n";
+
+    for ()
+}
