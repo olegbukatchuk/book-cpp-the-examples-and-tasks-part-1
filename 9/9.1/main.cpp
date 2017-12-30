@@ -35,4 +35,15 @@ void test(double (*f)(double), double x0, string eg) {
     cout<<"Решение уравнения "<<eq<<":\t";
 
     z=findRoot(f,x0,n);
+
+    cout<<z<<endl;
+    cout<<"Проверка найденного решения:\t";
+
+    cout<<z<<" = "<<f(z)<<endl;
+
+    for (int k=1;k<=50;k++) {
+        cout<<"-";
+    }
+    cout<<endl;
 }
+
