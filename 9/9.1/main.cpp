@@ -32,7 +32,7 @@ void test(double (*f)(double), double x0, string eg) {
 
     double z;
 
-    cout<<"Решение уравнения "<<eq<<":\t";
+    cout<<"Решение уравнения "<<eg<<":\t";
 
     z=findRoot(f,x0,n);
 
@@ -48,5 +48,9 @@ void test(double (*f)(double), double x0, string eg) {
 }
 
 int main() {
+    test(f,0,"x=0.5cos(x)");
+    test(g,0,"x=exp(-x)");
+    test(h,1,"x=(x*x+6)/5");
+
     return 0;
 }
