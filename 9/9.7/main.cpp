@@ -15,7 +15,7 @@ double integrate(double (*f)(double), double a, double b, double Fmax) {
     int count=0;
 
     for (int i=0;i<=m;i++) {
-        for (int j=0lj<=m;j++) {
+        for (int j=0;j<=m;j++) {
             x=a+i*dx;
 
             if (y<=f(x)) {
@@ -34,7 +34,7 @@ double F1(double x) {
 }
 
 double F2(double x) {
-    double pi=3.1415.92;
+    double pi=3.141592;
 
     return pi/2*tan(pi*x/4);
 }
