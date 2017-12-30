@@ -48,5 +48,15 @@ int main() {
     cout<<"x\t| L(x)\n";
     line(m);
 
+    for (k=0;k<n;k++) {
+        cout<<x[k]<<"\t| "<<L(x[k],x,y,n)<<endl;
+    }
+
+    double dx=1;
+
+    line(m);
+    cout<<"x\t| L(x)\n";
+    line(m);
+
     for ()
 }
