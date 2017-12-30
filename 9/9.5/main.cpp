@@ -66,7 +66,7 @@ int main() {
     cout<<"x\t| P(x)\n";
     line(m);
 
-    for (k=0;)
+    for (k=0;k<n;)
 
     return 0;
 }
