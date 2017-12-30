@@ -36,7 +36,7 @@ double f(double x) {
 }
 
 double g(double x) {
-    return exp(-x)-x;o
+    return exp(-x)-x;
 }
 
 double h(double x) {
