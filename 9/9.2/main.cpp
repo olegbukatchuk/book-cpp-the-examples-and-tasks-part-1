@@ -65,7 +65,7 @@ void test(double (*f)(double), double a, double b, string eq) {
 }
 
 int main() {
-    o
+    test(f,0,1,"0.5cos(x)-x=0");
 
     return 0;
 }
