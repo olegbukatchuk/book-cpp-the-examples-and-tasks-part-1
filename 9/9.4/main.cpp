@@ -21,4 +21,23 @@ double phi(int k, double z, double* x, int n) {
 
 double L(double z, double* x, double* y, int n) {
     double s=0;
+
+    for (int k=0;k<n;k++) {
+        s+=y[k]*phi(k,z,x,n);
+    }
+
+    return s;
+}
+
+void line(int m) {
+    for (int k=1;k<=m;k++) {
+        cout<<"-";
+    }
+    cout<<endl;
+}
+
+int main() {
+    int k,m=20;
+
+    o
 }
