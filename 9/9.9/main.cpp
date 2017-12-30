@@ -31,5 +31,13 @@ double Y(double x) {
 }
 
 int main() {
-    
+    double x[]={0,0.5,1,3,10};
+
+    cout<<"Решение дифференциального уравнения:\n";
+
+    for (int k=0;k<5;k++) {
+        cout<<dsolve(f,0,1,x[k])<<" vs. "<<Y(x[k])<<endl;
+    }
+
+    return 0;
 }
