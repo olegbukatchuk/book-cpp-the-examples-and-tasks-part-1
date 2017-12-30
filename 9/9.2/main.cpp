@@ -63,3 +63,7 @@ void test(double (*f)(double), double a, double b, string eq) {
     }
     cout<<endl;
 }
+
+int main() {
+    
+}
