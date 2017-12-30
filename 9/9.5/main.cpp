@@ -53,6 +53,20 @@ int main() {
     double a[n];
 
     findA(a,x,y,n);
+    line(m);
+    cout<<"x\t| P(x)\n";
+    line(m);
+
+    for (k=0;k<n;k++) {
+        cout<<x[k]<<"\t| "<<P(a,x[k],x,n)<<endl;
+    }
+
+    double dx=1;
+    line(m);
+    cout<<"x\t| P(x)\n";
+    line(m);
+
+    for (k)
 
     return 0;
 }
