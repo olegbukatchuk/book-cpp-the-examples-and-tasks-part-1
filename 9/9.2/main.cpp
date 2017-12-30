@@ -75,7 +75,7 @@ int main() {
     test(h,0,2,"x*x-5*x+6=0");
     test(h,1,3,"x*x-5*x+6=0");
     test(h,2.5,4.5,"x*x-5*x+6=0");
-    
+    test(h,2.5,10,"x*x-5*x+6=0");
 
     return 0;
 }
