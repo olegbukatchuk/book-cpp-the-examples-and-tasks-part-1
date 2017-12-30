@@ -5,5 +5,14 @@ using namespace std;
 
 double phi(int k, double z, double* x, int n) {
     int i;
-    
+
+    double res=1;
+
+    for (i=0;i<k;i++) {
+        res*=(z-x[i])/(x[k]-x[i]);
+    }
+
+    for (i=k+1;i<n;i++) {
+        o
+    }
 }
