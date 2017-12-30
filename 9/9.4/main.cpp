@@ -41,5 +41,12 @@ int main() {
 
     const int n=5;
 
-    
+    double x[n]={1,3,5,7,9};
+    double y[n]={0,2,-1,1,3};
+
+    line(m);
+    cout<<"x\t| L(x)\n";
+    line(m);
+
+    for ()
 }
