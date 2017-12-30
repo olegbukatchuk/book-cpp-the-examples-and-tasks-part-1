@@ -67,7 +67,7 @@ int main() {
     line(m);
 
     for (k=0;k<n;k++) {
-        cout<<x[k]+dx<<""
+        cout<<x[k]+dx<<"\t| "<<P(a,x[k]+dx,x,n)<<endl;
     }
 
     return 0;
