@@ -31,5 +31,5 @@ double F3(double x) {
 
 int main() {
     cout<<"Вычисления интегралов\n";
-    
+    cout<<integrate(F1,0,1)<<" vs. "<<(double)1/6<<endl;
 }
