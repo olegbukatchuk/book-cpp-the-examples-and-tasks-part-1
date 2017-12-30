@@ -39,5 +39,7 @@ void line(int m) {
 int main() {
     int k,m=20;
 
-    o
+    const int n=5;
+
+    
 }
