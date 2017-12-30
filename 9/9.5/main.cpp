@@ -67,7 +67,7 @@ int main() {
     line(m);
 
     for (k=0;k<n;k++) {
-        cout
+        cout<<x[k]+dx<<""
     }
 
     return 0;
