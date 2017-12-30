@@ -40,7 +40,9 @@ double F2(double x) {
 }
 
 int main() {
-    
+    cout<<"Вычисление интегралов\n";
+    cout<<integrate(F1,0,1,0.25)<<" vs. "<<(double)1/6<<endl;
+    cout<<integrate(F2,0,1,1.6)<<" vs. "<<log(2)<<endl;
 
     return 0;
 }
