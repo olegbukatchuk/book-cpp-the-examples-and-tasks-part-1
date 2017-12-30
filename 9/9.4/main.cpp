@@ -13,6 +13,12 @@ double phi(int k, double z, double* x, int n) {
     }
 
     for (i=k+1;i<n;i++) {
-        o
+        res*=(z-x[i])/(x[k]-x[i]);
     }
+
+    return res;
+}
+
+double L(double z, double* x, double* y, int n) {
+    
 }
