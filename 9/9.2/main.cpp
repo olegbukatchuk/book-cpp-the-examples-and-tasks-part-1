@@ -72,6 +72,8 @@ int main() {
     test(f,0,1,"0.5cos(x)-x=0");
     test(g,0,2,"exp(-x)-x");
     test(h,0,5,"x-5*x+6=0");
+    test(h,0,2,"x*x-5*x+6=0");
+    
 
     return 0;
 }
