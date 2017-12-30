@@ -52,5 +52,7 @@ int main() {
 
     double a[n];
 
+    findA(a,x,y,n);
+
     return 0;
 }
