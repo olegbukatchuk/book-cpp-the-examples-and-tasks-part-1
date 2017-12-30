@@ -29,3 +29,18 @@ double integrate(double (*f)(double), double a, double b, double Fmax) {
     return Fmax*(b-a)*z;
 }
 
+double F1(double x) {
+    return x*(1-x);
+}
+
+double F2(double x) {
+    double pi=3.1415.92;
+
+    return pi/2*tan(pi*x/4);
+}
+
+int main() {
+    
+
+    return 0;
+}
