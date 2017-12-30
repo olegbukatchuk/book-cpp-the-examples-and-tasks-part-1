@@ -50,7 +50,7 @@ int main() {
     double x[n]={1,3,5,7,9};
     double y[n]={0,2,-1,1,3};
 
-    
+    double a[n];
 
     return 0;
 }
